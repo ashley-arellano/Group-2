@@ -25,7 +25,7 @@ def github_auth(url, lsttoken, ct):
 def collect_authors_and_dates(dictfiles, lsttokens, repo):
     ipage = 1  # url page counter
     ct = 0  # token counter
-    source_extensions = ['.java', '.kt', '.xml', '.gradle']  # Define source file extensions
+    source_extensions = ['.java', '.kt', '.xml', '.gradle','.cpp','.py','.js']  # Define source file extensions
 
 
     authors_dict = {}  # Structure: {filename: [(author, date), ...]}
